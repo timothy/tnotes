@@ -13,6 +13,8 @@ import androidx.navigation.fragment.findNavController
  */
 class FirstFragment : Fragment() {
 
+    //private lateinit var viewModel: FirstViewModel
+
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
