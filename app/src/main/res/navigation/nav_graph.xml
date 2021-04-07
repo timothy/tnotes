@@ -6,6 +6,18 @@
     app:startDestination="@id/FirstFragment">
 
     <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.example.timsnotes.MainFragment"
+        android:label="@string/main_fragment"
+        tools:layout="@layout/main_fragment">
+
+
+        <action
+            android:id="@+id/action_MainFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.timsnotes.FirstFragment"
         android:label="@string/first_fragment_label"
